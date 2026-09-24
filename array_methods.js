@@ -12,3 +12,10 @@ let firstIndex = colors.indexOf("blue");
 let lastIndex = colors.lastIndexOf("blue");
 let result = [includesResult, firstIndex, lastIndex];
 console.log(result);
+
+// Task 3
+let teamA = ["Alice", "Bob"];
+let teamB = ["Charlie", "Diana"];
+let allTeams = teamA.concat(teamB);
+allTeams.push("Eve");
+console.log(allTeams);
