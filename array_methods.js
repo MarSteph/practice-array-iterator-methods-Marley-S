@@ -27,3 +27,10 @@ numbers.splice(3, 2, 60, 70);
 
 console.log(middleNumbers);
 console.log(numbers);
+
+// Task 5
+let scores = [85, 70, 95, 60, 75];
+scores.sort();
+scores.reverse();
+
+console.log(scores);
